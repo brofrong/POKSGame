@@ -1,0 +1,70 @@
+main {
+    width:300px;
+    margin: 0 auto;
+}
+
+.makeHero{
+    border: 1px dashed red;
+}
+
+.makeHero div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.makeHero p{
+    width:100px;
+    border: 1px solid green;
+    padding: 10px;
+    text-align: center;
+}
+.makeHero input[type="text"]{
+    width:30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.arena{
+    
+    border: 1px dashed red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.characteristic{
+}
+
+.arena .name{
+    border:3px solid green;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.characteristic div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.arena .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arena .buttons input{
+    padding: 5px;
+    margin: 10px;
+}
+
+.fight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px dashed blue;
+}
+
+
+
